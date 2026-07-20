@@ -6,7 +6,7 @@ public class Reverse{
 
         while(n > 0){
             int rem = n % 10;
-            // n = n/10;
+            n = n/10;
 
             ans = ans * 10 + rem;
         }

@@ -1,5 +1,4 @@
-
-
+import java.util.Scanner;
 public class Loops{
     public static void main(String[] args) {
 
@@ -12,18 +11,18 @@ public class Loops{
         */
 
         //Q. Print number from 1 to 5
-        // for(int i= 1; i <= 5; i++){
-        //     System.out.println(i);
-        // }
+        for(int i= 1; i <= 5; i++){
+            System.out.println(i);
+        }
 
         //print number from 1 to n
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter the value of n:");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n:");
 
-        // int n = sc.nextInt();
-        // for(int i = 1; i <= n; i++){
-        //     System.out.println(i);
-        // }
+        int n = sc.nextInt();
+        for(int i = 1; i <= n; i++){
+            System.out.println(i);
+        }
 
         //Print Hello World 10 times
 
@@ -40,10 +39,10 @@ public class Loops{
         } 
         */
 
-        int n = 1;
-        while(n <= 5){
-            System.out.println(n);
-            n++;
+        int nm = 1;
+        while(nm <= 5){
+            System.out.println(nm);
+            nm++;
         }
 
         
@@ -54,8 +53,7 @@ public class Loops{
         
         }
         while(condition){
-            //body
-        }
+
           
         */
 

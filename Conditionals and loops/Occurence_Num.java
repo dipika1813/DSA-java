@@ -5,7 +5,7 @@ public class Occurence_Num{
         int count = 0;
         while(n > 0){
             int rem = n % 10;
-            if(rem == 4){
+            if(rem == 5){
                 count++;
             }
             n = n / 10;
@@ -14,3 +14,4 @@ public class Occurence_Num{
         System.out.println(count);
     }
 }
+
