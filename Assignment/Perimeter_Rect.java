@@ -8,8 +8,9 @@ public class Perimeter_Rect{
 
         int perimeter = 2*(l+b);
         System.out.println("perimeter of rectangle:" +perimeter);
-
-
         
     }
 }
+
+
+// Perimeter of Square: 4 * s;

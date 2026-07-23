@@ -16,7 +16,7 @@ public class InputLargest{
             }
             num = sc.nextInt();
         }
-        System.out.println("largest number is"+largest);
+        System.out.println("largest number is: "+largest);
 
         
     }
