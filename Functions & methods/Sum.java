@@ -3,10 +3,8 @@ import java.util.Scanner;
 
 public class Sum{
     public static void main(String[] args) {
-        // Sum s = new Sum();
-        // s.display();
-        sum();
-
+        Sum s = new Sum();
+        s.display();
     
         
     }
@@ -22,8 +20,8 @@ public class Sum{
         int sum = num1 +num2;
         System.out.println(sum);
     }
-    // void display(){
-    //     sum();
-    // }
+    void display(){
+        sum();
+    }
 
 }
