@@ -5,10 +5,17 @@ public class Questions{
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
 
-        boolean ans = isPrime(n);
-        System.out.println(ans);
+        // boolean ans = isPrime(n);
+        // System.out.println(ans);
+
+        for (int i = 100; i< 1000; i++){
+            if(isArmstrong(i)){
+                System.out.println(i + " ");
+            }
+        }
+
     
     }
     static boolean isPrime(int n) {
@@ -26,5 +33,19 @@ public class Questions{
         }
         return c* c > n;
 
+    }
+
+    static boolean isArmstrong(int n ){
+        int original = n;
+        int sum = 0;
+
+        while(n > 0){
+            int rem = n % 10;
+            n = n / 10;
+
+            sum = sum + rem * rem *rem;
+
+        }
+        return sum == original;
     }
 }
