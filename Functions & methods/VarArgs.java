@@ -6,19 +6,28 @@ public class VarArgs{
         fun(23,45,66,78,43,45);  // print all the arguments in array - [ ]
         multiple(2, 3, "dipika");
 
+        demo("Dipika");
+
     }
+
+    static void demo(int ...v){
+        System.out.println(Arrays.toString(v));
+    }
+
+    static void demo(String ...v) {
+        System.out.println(Arrays.toString(v));
+        
+    }
+
+
+
+
+
 
     static void multiple(int a, int b, String ...m){
 
         System.out.println(Arrays.toString(m));
     }
-
-
-
-
-
-
-
 
     static void fun(int ...v){  // .....v takes no of arguments
         System.out.println(Arrays.toString(v));
