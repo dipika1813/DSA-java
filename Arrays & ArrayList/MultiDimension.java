@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MultiDimension{
@@ -26,15 +27,28 @@ public class MultiDimension{
 
     for(int row = 0; row < arr3.length; row++){
         //for each colm in every row
-        for(int colm = 0; colm <arr[row].length; colm++){
-            arr[row][colm] = sc.nextInt();
-            System.out.print(arr3[row][colm]);
+        for(int colm = 0; colm < arr3[row].length; colm++){
+            arr3[row][colm] = sc.nextInt();
 
         }
     }
 
+    // for(int row = 0; row < arr3.length; row++){
+    //     //for each colm in every row
+    //     for(int colm = 0; colm <arr3[row].length; colm++){
+    //         System.out.print(arr3[row][colm] + " ");
 
+    //     }
+    //     System.out.println();         
+    //     }
+
+        //OR
+
+        for(int row = 0; row < arr3.length; row++){
+            System.out.println(Arrays.toString(arr3[row]));
+
+        }
 
 
     }
-}
+    }
