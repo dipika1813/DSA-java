@@ -13,13 +13,13 @@ public class MultiDimension{
        Scanner sc = new Scanner(System.in);
        int[][] arr = new int[3][];  //No.of rows are mandatory 
 
-    //    int [][] arr2 = {
+       int [][] arr2 = {
 
-    //         {1, 2, 3},  //index 0
-    //         {4, 5,7},  //index 1
-    //         {7, 8, 9},   //index 2
-    //    };
-    // System.out.println(arr2[1][0]);    //---> 0th item of  index 1 = 4
+            {1, 2, 3},  //index 0
+            {4, 5,7},  //index 1
+            {7, 8, 9},   //index 2
+       };
+    System.out.println(arr2[1][0]);    //---> 0th item of  index 1 = 4
 
 
     int[][] arr3 = new int[3][3];
@@ -33,14 +33,14 @@ public class MultiDimension{
         }
     }
 
-    // for(int row = 0; row < arr3.length; row++){
-    //     //for each colm in every row
-    //     for(int colm = 0; colm <arr3[row].length; colm++){
-    //         System.out.print(arr3[row][colm] + " ");
+    for(int row = 0; row < arr3.length; row++){
+        //for each colm in every row
+        for(int colm = 0; colm <arr3[row].length; colm++){
+            System.out.print(arr3[row][colm] + " ");
 
-    //     }
-    //     System.out.println();         
-    //     }
+        }
+        System.out.println();         
+        }
 
         //OR
 
