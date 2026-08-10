@@ -35,7 +35,7 @@ public class MultiDimension{
 
     for(int row = 0; row < arr3.length; row++){
         //for each colm in every row
-        for(int colm = 0; colm <arr3[row].length; colm++){
+        for(int colm = 0; colm < arr3[row].length; colm++){
             System.out.print(arr3[row][colm] + " ");
 
         }
